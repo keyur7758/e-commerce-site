@@ -147,7 +147,7 @@ export default function Cart() {
                     <input id="name-input" type="text" placeholder="Phone" />
                     <input type="text" placeholder="Postal Code" /><br />
                     <input id="name-input" type="text" placeholder="Email" />
-                    <input type="text" placeholder="City" />
+                    <input type="text" placeholder="City" /><br/> 
                     <input className="input-subject" type="text" id="message-box" placeholder="Address" />
                     <button type="submit" className="btn btn-dark btn-lg btn-block btn-pay" onClick={() => { setOrder(true); setForm(false) }}>
                       Pay / Submit
