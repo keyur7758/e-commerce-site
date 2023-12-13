@@ -1,0 +1,123 @@
+body,
+ul,
+li,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0px;
+
+}
+
+.footer-area {
+    background-color: rgb(249 249 249);
+    margin: 0px 60px;
+    margin-top: 100px;
+}
+.footer-area .footer-heading h1{
+    font-size: 35px;
+}
+.footer-area .footer-heading p{
+    color: grey;
+}
+
+#footer-input {
+    border: 1px solid black;
+    padding: 10px 100px 10px 10px;
+    border-radius: 5px
+}
+
+#footer-btn {
+    margin-left: 10px;
+    padding: 10px 20px;
+    box-shadow: none;
+}
+
+.services-area {
+    display: flex;
+    padding: 0px 60px;
+    margin-top: 50px;
+}
+
+.services-area ul li {
+    list-style: none;
+}
+
+.services-area ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.services-area .service-box {
+    text-align: start;
+}
+
+.services-area .footer-icon {
+    margin-right: 10px;
+}
+.services-area h5{
+    margin-bottom: 20px;
+}
+.services-area li{
+    margin-bottom: 10px;
+    color: grey;
+}
+.footer-last{
+    margin-top: 50px;
+    text-align: center;
+}
+.footer-last .footer-line{
+    padding: 0.5px 0px;
+    background: #e7e7e7;;
+}
+.footer-last p{
+    color: grey;
+    margin-top: 20px;
+}
+@media (max-width:1024px){
+    .services-area {
+        padding: 0px 20px;
+    }
+}
+@media (max-width:767px){
+    .footer-box {
+        display: block;
+
+    }
+    #footer-input {
+        padding: 10px 30px 10px 10px;
+    }.services-area .service-box {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:576px){
+    .footer-area .footer-heading h1 {
+        font-size: 20px;
+    }.footer-area {
+        background-color: rgb(249 249 249);
+        margin: 0px 80px;
+        margin-top: 20px;
+    }#footer-input {
+        padding: 10px 9px 10px 10px;
+    }
+}
+@media (max-width:400px){
+    .footer-area {
+        background-color: rgb(249 249 249);
+        margin: 0px ;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,20 @@
+.mark-img {
+    margin: 0px 20px;
+
+}
+.mark-area{
+    margin: 20px 50px;
+}
+.mark-area h2{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+@media(max-width:767px){
+    .mark-img {
+        margin: 0px ;
+    }
+    .mark-area {
+        margin: 0px;
+    }
+}

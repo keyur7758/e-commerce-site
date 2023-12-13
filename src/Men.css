@@ -1,0 +1,14 @@
+.men-area{
+    /* background-image: url(../public/images/Men-1.webp);
+    background-position: center;
+    background-size: cover; */
+    margin:30px 50px;
+    margin-top: 130px;
+}
+@media (max-width:767px){
+    .men-area {
+        margin: 0px;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+}
