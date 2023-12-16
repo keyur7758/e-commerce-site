@@ -35,6 +35,7 @@
 
 .middle-area img {
     border-radius: 5px;
+    width: 100%;
 }
 
 /* .middle-area .middle-img{
@@ -75,13 +76,9 @@
 }
 
 .second-slide {
-    /* margin-left: 30px; */
-    margin-top: 60px;
+    margin-left: 30px;
     border-radius: 5px;
-    padding-left: 30px;
-    padding-bottom: 30px;
-    padding-right: 30px;
-
+    padding: 60px 30px;
 }
 
 .second-slide .flash-box {
@@ -286,6 +283,14 @@ a.Menu-option {
     color: black;
 }
 
+@media (max-width:1500px) {
+    .second-slide {
+        margin-left: 30px;
+        border-radius: 5px;
+        padding: 30px 30px;
+    }
+}
+
 @media (max-width:1350px) {
     .second-slide {
         margin-top: 0px;
@@ -335,6 +340,11 @@ a.Menu-option {
         margin-top: 30px;
     }
 
+    .second-slide {
+        margin-left: 0px;
+        border-radius: 5px;
+        padding: 20px 40px;
+    }
 
 }
 
@@ -389,8 +399,28 @@ a.Menu-option {
 
     .style-area {
         margin: 20px 0px;
-    }.second-carousel .owl-item img {
+    }
+
+    .second-carousel .owl-item img {
         height: 160px;
+    }
+
+    .second-slide {
+        margin-left: 0px;
+        border-radius: 5px;
+        padding: 0px 140px;
+    }
+
+    .border-clock {
+        border: none;
+    }
+
+    .second-slide .flash-box {
+        border: 1px solid #e0e0e0;
+    }
+
+    .flash-img img {
+        width: 180px;
     }
 }
 
@@ -412,7 +442,7 @@ a.Menu-option {
         font-size: 14px;
     }
 
-    .second-slide { 
+    .second-slide {
         margin-top: 20px;
         border-radius: 5px;
         padding-left: 30px;
@@ -426,12 +456,29 @@ a.Menu-option {
 
     .second-carousel .owl-item.active img {
         margin-left: 15px;
-    }.second-carousel .owl-item img {
+    }
+
+    .second-carousel .owl-item img {
         height: 140px;
     }
 
+    .flash-img img {
+        width: 140px;
+    }
+
+    .second-slide .carousel-control-next,
+    .carousel-control-prev {
+        height: 24%;
+        top: 40%;
+        width: 10%;
+    }
+
+    .second-slide .carousel-control-next {
+        right: -22px;
+    }
 }
-@media (max-width:400px){
+
+@media (max-width:400px) {
     .second-carousel .owl-item img {
         width: 80% !important;
         height: 100px;

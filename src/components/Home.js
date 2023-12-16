@@ -102,7 +102,7 @@ export default function Home() {
             </div>
             <div className='middle-area'>
                 <div className='container-fluid'>
-                    <div className='row g-0'>
+                    <div className='row g-3'>
                         <div className='col-md-12 col-lg-8'>
                             <Link className='Menu-option' to='/Men'>
                                 <div className='middle-img'>
@@ -110,8 +110,9 @@ export default function Home() {
                                 </div>
                             </Link>
                         </div>
-                        <div className='col-md-12 col-lg-4'>
-                            <div className='second-slide border-clock'>
+                        <div className='col-md-12 col-lg-4 border-clock'>
+                                <h4>Flash Sale</h4>
+                            <div className='second-slide '>
                                 <div className='flash-box'>
                                     <Carousel slide={false} >
                                         <Carousel.Item>
