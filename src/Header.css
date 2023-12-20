@@ -184,6 +184,9 @@ input.form-control.rounded {
     justify-content: center;
     align-items: center;
 }
+#img-logo{
+    position: sticky;
+}
 
 @media (max-width:1300px) {
     .navbar-expand-lg .navbar-collapse {

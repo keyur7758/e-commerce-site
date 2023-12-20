@@ -12,6 +12,8 @@ import Women from './components/Women';
 import { Provider } from 'react-redux';
 import {store} from './app/store'
 import Cart from './components/Cart';
+import Details from './components/Details';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -22,6 +24,7 @@ root.render(
         <Route path='Men' element={<Men/>}/>
         <Route path='Women' element={<Women/>}/>
         <Route path='cart' element={<Cart/>}/>
+        <Route path='detail' element={<Details/>}/>
       </Routes>
     </BrowserRouter>
     </Provider>

@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 import productData from '../../components/productData';
 
 const initialState = {
-  // cart:[],
+  cart:[],
   items: productData,
 };
 

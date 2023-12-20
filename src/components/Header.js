@@ -65,7 +65,7 @@ export default function Header() {
             <i className="fa-solid fa-xmark " style={{ color: "#000000", }} onClick={handleClose}></i>
           </div>
           <Modal.Header closeButton>
-            <Modal.Title> <img className='img-fluid' src='/images/logo.png' /><br /></Modal.Title>
+            <Modal.Title id='img-logo'> <img className='img-fluid' src='/images/logo.png' /><br /></Modal.Title>
             <Modal.Title> <br /></Modal.Title>
           </Modal.Header>
           <Modal.Body>
