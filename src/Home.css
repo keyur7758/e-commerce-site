@@ -476,6 +476,11 @@ a.Menu-option {
     .second-slide .carousel-control-next {
         right: -22px;
     }
+    .Benefit-area {
+        margin-top: 50px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
 }
 
 @media (max-width:400px) {

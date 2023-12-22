@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useSelector,useDispatch } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { addTocart } from '../features/cart/cartSlice';
@@ -14,11 +14,11 @@ export default function Product2() {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-    
+
     return (
         <>
             <div className='product1-area'>
-            <div className='row g-0 row-cols-xl-5 row-cols-md-3 row-cols-sm-3 row-cols-2'>
+                <div className='row g-0 row-cols-xl-5 row-cols-md-3 row-cols-sm-3 row-cols-2'>
                     {items2.map((item) => (
                         <div className='col'>
                             <div className='product-box card-box'>
@@ -30,8 +30,8 @@ export default function Product2() {
                                             {item.text}
                                         </Card.Text>
                                         <Card.Title>${item.price}.00 </Card.Title>
-                                        <Button variant="dark" className='cart-btn' onClick={() => dispatch(addTocart(item))}>Add To Cart</Button>
-                                        <Button variant="dark" className='cart-btn' onClick={() => { dispatch(GetDetails(item)); handleShow() }}>
+                                        <Button variant="outline-dark" className='cart-btn' onClick={() => dispatch(addTocart(item))}>Add To Cart</Button>
+                                        <Button variant="outline-dark" className='cart-btn' onClick={() => { dispatch(GetDetails(item)); handleShow() }}>
                                             Details
                                         </Button>
                                     </Card.Body>
@@ -54,7 +54,7 @@ export default function Product2() {
                                                 <div className='model-img'>
                                                     <img className='img-fluid' src={Detail.images} />
                                                 </div>
-                                            </div>
+                                             </div>
                                         </div>
                                         <div className='col-md-6 col-sm-6'>
                                             <div className='model-detail'>

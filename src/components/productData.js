@@ -8,7 +8,7 @@ export default[
         "id":3, "images": "images/card-3.webp", "title": "Solid Jeans", "price": 20, "text": "Casual wear (casual attire or clothing..." , "quantity":1
      },
      {
-        "id":4 ,"images": "images/card-4.webp", "title": "Solid Jeans", "price": 20, "text": "Casual wear (casual attire or clothing..." , "quantity":1
+        "id":4,"images": "images/card-4.webp", "title": "Solid Jeans", "price": 20, "text": "Casual wear (casual attire or clothing..." , "quantity":1
      },
      {
         "id":5, "images": "images/card-5.webp", "title": "Solid Jeans", "price": 20, "text": "Casual wear (casual attire or clothing...","quantity":1

@@ -31,8 +31,8 @@ export default function Product() {
                                             {item.text}
                                         </Card.Text>
                                         <Card.Title>${item.price}.00 </Card.Title>
-                                        <Button variant="dark" className='cart-btn' onClick={() => dispatch(addTocart(item))}>Add To Cart</Button>
-                                        <Button variant="dark" className='cart-btn' onClick={() => { dispatch(GetDetails(item)); handleShow() }}>
+                                        <Button variant="outline-dark" className='cart-btn product-btn' onClick={() => dispatch(addTocart(item))}>Add To Cart</Button>
+                                        <Button variant="outline-dark" className='cart-btn ' onClick={() => { dispatch(GetDetails(item)); handleShow() }}>
                                             Details
                                         </Button>
                                     </Card.Body>
